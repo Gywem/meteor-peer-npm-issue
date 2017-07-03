@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+current=$PWD
+
+cd packages/one
+npm install
+cd ../two
+npm install
+cd $PWD
